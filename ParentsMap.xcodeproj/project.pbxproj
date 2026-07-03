@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CC5B0F912FF2983C0006751F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CC5B0F902FF2983C0006751F /* README.md */; };
+		CC8284C62FCAFB1200978D13 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = CC8284C52FCAFB1200978D13 /* Auth */; };
+		CC8284C82FCAFB1200978D13 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = CC8284C72FCAFB1200978D13 /* Functions */; };
+		CC8284CA2FCAFB1200978D13 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = CC8284C92FCAFB1200978D13 /* PostgREST */; };
+		CC8284CC2FCAFB1200978D13 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = CC8284CB2FCAFB1200978D13 /* Realtime */; };
+		CC8284CE2FCAFB1200978D13 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = CC8284CD2FCAFB1200978D13 /* Storage */; };
+		CC8284E32FD91FF600978D13 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = CC8284E22FD91FF600978D13 /* Supabase */; };
+		CCBEFA232FF7DE9900DFC91C /* DECISIONS.md in Resources */ = {isa = PBXBuildFile; fileRef = CCBEFA222FF7DE9900DFC91C /* DECISIONS.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CC8284A82FCAF07900978D13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,14 +35,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC5B0F902FF2983C0006751F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CC5B0F922FF2984B0006751F /* ARCHITECTURE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ARCHITECTURE.md; sourceTree = "<group>"; };
+		CC5B0F932FF298560006751F /* CURRENT_STATE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CURRENT_STATE.md; sourceTree = "<group>"; };
+		CC5B0F942FF298610006751F /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
 		CC82849A2FCAF07700978D13 /* ParentsMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParentsMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC8284A72FCAF07900978D13 /* ParentsMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParentsMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC8284B12FCAF07900978D13 /* ParentsMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParentsMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBEFA202FF7DD7300DFC91C /* AI_GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AI_GUIDE.md; sourceTree = "<group>"; };
+		CCBEFA212FF7DE5100DFC91C /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		CCBEFA222FF7DE9900DFC91C /* DECISIONS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DECISIONS.md; sourceTree = "<group>"; };
+		CCBEFA262FF7DEF000DFC91C /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CC27554A2FDAC006002E4653 /* Exceptions for "ParentsMap" folder in "ParentsMap" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CC8284992FCAF07700978D13 /* ParentsMap */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CC82849C2FCAF07700978D13 /* ParentsMap */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CC27554A2FDAC006002E4653 /* Exceptions for "ParentsMap" folder in "ParentsMap" target */,
+			);
 			path = ParentsMap;
 			sourceTree = "<group>";
 		};
@@ -52,6 +84,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC8284CA2FCAFB1200978D13 /* PostgREST in Frameworks */,
+				CC8284C82FCAFB1200978D13 /* Functions in Frameworks */,
+				CC8284E32FD91FF600978D13 /* Supabase in Frameworks */,
+				CC8284C62FCAFB1200978D13 /* Auth in Frameworks */,
+				CC8284CE2FCAFB1200978D13 /* Storage in Frameworks */,
+				CC8284CC2FCAFB1200978D13 /* Realtime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +113,18 @@
 		CC8284912FCAF07700978D13 = {
 			isa = PBXGroup;
 			children = (
+				CCBEFA262FF7DEF000DFC91C /* CONTRIBUTING.md */,
+				CCBEFA222FF7DE9900DFC91C /* DECISIONS.md */,
+				CCBEFA212FF7DE5100DFC91C /* CHANGELOG.md */,
+				CCBEFA202FF7DD7300DFC91C /* AI_GUIDE.md */,
+				CC5B0F942FF298610006751F /* TODO.md */,
+				CC5B0F932FF298560006751F /* CURRENT_STATE.md */,
+				CC5B0F922FF2984B0006751F /* ARCHITECTURE.md */,
+				CC5B0F902FF2983C0006751F /* README.md */,
 				CC82849C2FCAF07700978D13 /* ParentsMap */,
 				CC8284AA2FCAF07900978D13 /* ParentsMapTests */,
 				CC8284B42FCAF07900978D13 /* ParentsMapUITests */,
+				CC8284E12FD91FF600978D13 /* Frameworks */,
 				CC82849B2FCAF07700978D13 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +137,13 @@
 				CC8284B12FCAF07900978D13 /* ParentsMapUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CC8284E12FD91FF600978D13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +166,12 @@
 			);
 			name = ParentsMap;
 			packageProductDependencies = (
+				CC8284C52FCAFB1200978D13 /* Auth */,
+				CC8284C72FCAFB1200978D13 /* Functions */,
+				CC8284C92FCAFB1200978D13 /* PostgREST */,
+				CC8284CB2FCAFB1200978D13 /* Realtime */,
+				CC8284CD2FCAFB1200978D13 /* Storage */,
+				CC8284E22FD91FF600978D13 /* Supabase */,
 			);
 			productName = ParentsMap;
 			productReference = CC82849A2FCAF07700978D13 /* ParentsMap.app */;
@@ -195,6 +255,9 @@
 			);
 			mainGroup = CC8284912FCAF07700978D13;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CC8284C42FCAFB1200978D13 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CC82849B2FCAF07700978D13 /* Products */;
 			projectDirPath = "";
@@ -212,6 +275,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC5B0F912FF2983C0006751F /* README.md in Resources */,
+				CCBEFA232FF7DE9900DFC91C /* DECISIONS.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,8 +460,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXXVHY9AKY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParentsMap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Parents Map";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Parents Map uses your camera to let you add a photo of the spot you're submitting.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Parents Map uses your location to show you nearby facilities";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Parents Map needs access to your photos so you can add one to your submission.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -422,8 +494,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXXVHY9AKY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParentsMap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Parents Map";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Parents Map uses your camera to let you add a photo of the spot you're submitting.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Parents Map uses your location to show you nearby facilities";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Parents Map needs access to your photos so you can add one to your submission.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -550,6 +629,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CC8284C42FCAFB1200978D13 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CC8284C52FCAFB1200978D13 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC8284C42FCAFB1200978D13 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		CC8284C72FCAFB1200978D13 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC8284C42FCAFB1200978D13 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		CC8284C92FCAFB1200978D13 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC8284C42FCAFB1200978D13 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		CC8284CB2FCAFB1200978D13 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC8284C42FCAFB1200978D13 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		CC8284CD2FCAFB1200978D13 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC8284C42FCAFB1200978D13 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		CC8284E22FD91FF600978D13 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC8284C42FCAFB1200978D13 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CC8284922FCAF07700978D13 /* Project object */;
 }
